@@ -5,9 +5,26 @@
 }
 
 body {
+    background: blanchedalmond;
     overflow-x: hidden;
     overflow-y: hidden;
     
+}
+
+h1{
+    font-family: 'Jost', sans-serif; 
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#subtext{
+    margin-bottom: 50px;
+    margin-top: 5px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1, #subtext{
+    margin-left: 50px;
 }
 
 .wrapper {
@@ -18,10 +35,9 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 50px;
+    top: 70px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background: tan;
-    border: 1.5px solid #000; 
-}
+    background: lightblue;
+    border: 1.5px solid white;}
