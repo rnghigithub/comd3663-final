@@ -8,12 +8,16 @@ function draw() {
       const para = document.querySelector('.unsupported');
       para.textContent = 'Browser unsupported for HTML5 Canvas';
    }
+// label text
+   ctx.font = 'italic 15px sans-serif';
+   ctx.fillText('Willamsburg Bridge', 270, 340); 
+
 
    ctx.beginPath();
    ctx.lineTo(870, 300);
    ctx.lineTo(800, 350);
-   ctx.lineTo(565, 540);
-   ctx.lineTo(685, 320);
+   ctx.lineTo(555, 500);
+   ctx.lineTo(700, 320);
    ctx.closePath();
    ctx.stroke();
 
@@ -37,16 +41,37 @@ function draw() {
 
 
 //circle train line//
+ctx.font = 'italic 13px sans-serif';
+
+   ctx.fillText('Fresh Pond Road', 770, 150); 
+   ctx.fillText('Forest Ave', 780, 200); 
+   ctx.fillText('Seneca Ave', 760, 250);
+   ctx.fillText('Mrytle-Wycoff Aves', 700, 295);
+   ctx.fillText('Knickboker Ave', 765, 360); 
+   ctx.fillText('Central Ave', 700, 380);
+   ctx.fillText('Myrtle Broadway', 655, 330);
+
+   ctx.fillText('Flushing Ave', 580, 335)
+   ctx.fillText('Lorimer St', 540, 380);
+   ctx.fillText('Hewes St', 500, 335);
+   ctx.fillText('Marcy Ave', 430, 400);
+
+   ctx.fillText('Essex St', 105, 370);
+   ctx.fillText('Delancey St', 100, 425);
+
+   ctx.fillText('High Street', 450, 450); 
+   ctx.fillText('Jay St Metrotech', 500, 520);
+
+
 
 const radius = 10; //starting from right top corner - orange line// 
 
    ctx.arc(890, 150, radius, 0, Math.PI * 2); 
    ctx.arc(870, 200, radius, 0, Math.PI * 2); 
-   ctx.arc(850, 250, radius, 0, Math.PI * 2); 
-   
+   ctx.arc(850, 250, radius, 0, Math.PI * 2);
    ctx.arc(830, 300, radius, 0, Math.PI * 2); 
+  
    ctx.arc(750, 350, radius, 0, Math.PI * 2); 
-
    ctx.arc(710, 350, radius, 0, Math.PI * 2);
    ctx.arc(670, 350, radius, 0, Math.PI * 2);
    ctx.arc(620, 350, radius, 0, Math.PI * 2);
@@ -62,10 +87,10 @@ const radius = 10; //starting from right top corner - orange line//
    ctx.arc(500, 470, radius, 0, Math.PI * 2);
 
    ctx.arc(550, 490, radius, 0, Math.PI * 2);
-   ctx.arc(560, 530, radius, 0, Math.PI * 2);
+ 
 
    ctx.strokeStyle = 'orange';
-   ctx.lineWidth = '3.5';
+   ctx.lineWidth = '2';
    ctx.stroke();
    ctx.closePath();
 

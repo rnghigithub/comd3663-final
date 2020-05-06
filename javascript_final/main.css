@@ -41,3 +41,17 @@ h1, #subtext{
     justify-content: center;
     background: lightblue;
     border: 1.5px solid white;}
+
+#orange, #green {
+writing-mode: vertical-rl;
+text-orientation: mixed;
+font-family: 'Jost', sans-serif; 
+font-size: 40px;
+margin-left: 175px;
+}    
+
+#green {
+    float: right;
+    margin-right: 175px;
+
+}
