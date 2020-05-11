@@ -1,2 +1,5 @@
 # comd3663-final
-this is the branch for developmeent of this final
+
+
+NEW NOTE - 5/10/2020 
+Adding PRE-FINAL CODE & txt files
